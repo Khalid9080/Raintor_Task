@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Footer from "./footer/page";
 import Navbar from "./navbar/page";
+import Stack from "./stack/page";
 
 export default function Home() {
   return (
@@ -27,6 +28,12 @@ export default function Home() {
       />
         <Navbar />
       </nav>
+
+     
+        <section className="mx-auto max-w-10/12 ">
+          <Stack></Stack>
+        </section>
+      
       
     
       <footer className="mx-auto max-w-10/12">
